@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes slideright {
+  0%{
+    transform: translateX(-200px);
+  }
+  100%{
+    transform: translateX(0px);;
+  }
+}
+@keyframes slideleft {
+  0%{
+    transform: translateX(200px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes slidebottom {
+  0%{
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.active{
+  border-bottom: 4px solid blue;
+}
+h2 ,h3{
+  font-weight: 600;
+  font-size: 20px;
+}
+h1{
+  font-weight: 600;
+  font-size: 3rem;
+}

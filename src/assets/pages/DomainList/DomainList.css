@@ -1,0 +1,12 @@
+.domain-list{
+  padding: 25px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.domain-container h1{
+  margin-left: 50px;
+}

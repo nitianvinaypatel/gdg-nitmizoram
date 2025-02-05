@@ -1,0 +1,78 @@
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 5;
+}
+.logo , .logo2{
+  justify-self: flex-start;
+  animation: slideleft 1s ease forwards;
+}
+.logo2{
+  animation: slideright 1s ease forwards;
+}
+.logo img , .logo2 img{
+  width: 60px;
+  cursor: pointer;
+}
+.nav_menu ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nav_menu ul li{
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hamburger{
+  display: none;
+}
+.l1{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+}
+.l2{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+  animation-delay: 0.3s;
+}
+.l3{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+  animation-delay: 0.6s;
+}
+.l4{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+  animation-delay: 0.9s;
+}
+.l5{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+  animation-delay: 1.2s;
+}
+.l6{
+  opacity: 0;
+  animation: slidebottom 0.3s ease forwards;
+  animation-delay: 1.5s;
+}
+@media (max-width: 630px) {
+  .nav_menu ul{
+    flex-direction: column;
+  }
+  .hamburger{
+    display: block;
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
