@@ -15,17 +15,19 @@ const Event = () => {
 
   const events = [
     {
-      title: "Event Title 1",
-      date: "January 1, 2025",
-      description: "This is a brief description of Event 1.",
-      imageUrl: event1,
+      title: "GDG Orientation Day",
+      date: "January 20, 2025",
+      description:
+        "A full-day developer conference featuring hands-on workshops, speaker sessions on Google technologies, and networking opportunities for tech enthusiasts.",
+      imageUrl: event1, // Replace with actual image URL
       year: "2025",
     },
     {
-      title: "Event Title 2",
-      date: "February 14, 2025",
-      description: "This is a brief description of Event 2.",
-      imageUrl: event2,
+      title: "Flutter Forward Workshop",
+      date: "March 10, 2025",
+      description:
+        "An interactive workshop exploring Flutter's latest updates, covering state management, animations, and Firebase integration for cross-platform app development.",
+      imageUrl: event2, // Replace with actual image URL
       year: "2025",
     },
   ];

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Logo from "./assets/pages/Logo/Logo";
 import Navbar from "./assets/components/Navbar/Navbar";
 import Footer from "./assets/components/Footer/Footer";
@@ -7,7 +7,7 @@ import Home from "./assets/pages/Home/Home";
 import Project from "./assets/pages/Project/Project";
 import Event from "./assets/pages/Event/Event";
 import Member from "./assets/pages/Member/Member";
-import BlogApp from "../Blogger/src/BlogApp"; // Import BlogApp from Project 2
+// import BlogApp from "../Blogger/src/BlogApp"; // Import BlogApp from Project 2
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 function App() {
@@ -64,11 +64,11 @@ function App() {
                 }
               />
               {/* Routes for Project 2 */}
-              <Route path="/blog/*" element={<BlogApp />} />{" "}
+              {/* <Route path="/blog/*" element={<BlogApp />} />{" "} */}
               {/* Wildcard route for BlogApp */}
               {/* Specific redirects for Project 2 */}
-              <Route path="/:id" element={<Navigate to="/blog/:id" />} />
-              <Route
+              {/* <Route path="/:id" element={<Navigate to="/blog/:id" />} /> */}
+              {/* <Route
                 path="/author/:auth_name"
                 element={<Navigate to="/blog/author/:auth_name" />}
               />
@@ -83,8 +83,8 @@ function App() {
               <Route
                 path="/deletepost"
                 element={<Navigate to="/blog/deletepost" />}
-              />
-              <Route path="/login" element={<Navigate to="/blog/login" />} />
+              /> */}
+              {/* <Route path="/login" element={<Navigate to="/blog/login" />} /> */}
             </Routes>
             <Footer setSelectTab={setSelectTab} />
           </div>

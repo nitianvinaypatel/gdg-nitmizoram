@@ -71,6 +71,7 @@
 
 .event-card {
   display: flex;
+  padding: 1rem;
   flex-wrap: wrap;
   background: white;
   border-radius: 8px;

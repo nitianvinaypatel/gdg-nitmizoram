@@ -52,17 +52,15 @@ const Navbar = ({ selectTab, setSelectTab }) => {
             >
               Team
             </li>
-            <li
+            {/* <li
               className={`${selectTab === "blog" ? "active" : ""} l5`}
               onClick={() => {
                 setSelectTab("blog");
                 navigate("/blog");
               }}
             >
-              {/* <a href="http://localhost:5173" target="_blank"> */}
               Blogs
-              {/* </a> */}
-            </li>
+            </li> */}
             <li
               className={`${selectTab === "contact" ? "active" : ""} l6`}
               onClick={() => setSelectTab("contact")}
