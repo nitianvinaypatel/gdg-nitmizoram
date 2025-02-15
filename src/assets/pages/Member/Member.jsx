@@ -280,7 +280,7 @@ const Member = ({
       image: team.saurabhVerma,
       linkedin:
         "https://www.linkedin.com/in/saurabh-verma-2b87a9290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      github: "https://saurabhverma9731256232.github/",
+      github: "https://github.com/saurabhverma9731256232",
     },
     {
       _id: "_ax",
